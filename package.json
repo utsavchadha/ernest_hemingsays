@@ -1,0 +1,28 @@
+{
+  "name": "hemingsays",
+  "version": "1.0.0",
+  "description": "This is a project for Faking the News class at NYU ITP. It's a twitter bot that tweets through a faux Milo account trying to establish that Milo reads literature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utsavchadha/twitter_bot_faking_the_news.git"
+  },
+  "keywords": [
+    "metamodernism",
+    "twitterbot",
+    "faking_the_news"
+  ],
+  "author": "Utsav Chadha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utsavchadha/twitter_bot_faking_the_news/issues"
+  },
+  "homepage": "https://github.com/utsavchadha/twitter_bot_faking_the_news#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
+}
