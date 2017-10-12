@@ -15,7 +15,7 @@ var tweet_status;
 var marker = 0;
 //var cmd = "processing-java --sketch=`pwd`/ernest_p5 --run";
 
-setInterval(postTweet, 1000*2);
+setInterval(postTweet, 1000*30);
 
 function generateMarkovStatus() {
 	var responses = fs.readFileSync('hemingsays.txt').toString().split("\n");
